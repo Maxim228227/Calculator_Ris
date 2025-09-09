@@ -49,7 +49,7 @@ class Program
 
             string? op = Console.ReadLine();
 
-            // Validate input is not null, and matches the pattern
+            // Validate input is not null, and matches the pattern..
             if (op == null || !Regex.IsMatch(op, "[a|s|m|d]"))
             {
                 Console.WriteLine("Error: Unrecognized input.");
